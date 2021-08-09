@@ -1,0 +1,88 @@
+1628492372928	geckodriver	INFO	Listening on 127.0.0.1:57061
+1628492372932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile96cKYA"
+
+(firefox:93082): Gtk-WARNING **: 14:59:32.987: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628492373933	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:93191): Gtk-WARNING **: 14:59:34.858: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:93215): Gtk-WARNING **: 14:59:35.005: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile96cKYA/search.json.mozlz4", (void 0)))
+
+(/usr/lib/firefox/firefox:93343): Gtk-WARNING **: 14:59:37.194: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:93345): Gtk-WARNING **: 14:59:37.198: Locale not supported by C library.
+	Using the fallback 'C' locale.
+[Parent 93082, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox/src/firefox-90.0.2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+[Parent 93082, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox/src/firefox-90.0.2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1628492377733	Marionette	INFO	Listening on port 45755
+1628492377773	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:93416): Gtk-WARNING **: 14:59:39.138: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628492379208	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RuntimeMessage' was resolved
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 4
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 5
+1628492398937	Marionette	INFO	Stopped listening on port 45755
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628501220025	geckodriver	INFO	Listening on 127.0.0.1:55507
+1628501220955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3QWtwQ"
+
+(firefox:143425): Gtk-WARNING **: 17:27:01.202: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628501222459	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:143543): Gtk-WARNING **: 17:27:03.587: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:143581): Gtk-WARNING **: 17:27:03.796: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3QWtwQ/search.json.mozlz4", (void 0)))
+
+(/usr/lib/firefox/firefox:143694): Gtk-WARNING **: 17:27:07.403: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628501227688	Marionette	INFO	Listening on port 44353
+1628501227789	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:143785): Gtk-WARNING **: 17:27:09.383: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1628501273814	Marionette	INFO	Stopped listening on port 44353
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628501323087	geckodriver	INFO	Listening on 127.0.0.1:39163
+1628501324088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBxFR7K"
+
+(firefox:144353): Gtk-WARNING **: 17:28:44.406: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628501324832	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:144450): Gtk-WARNING **: 17:28:45.933: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(/usr/lib/firefox/firefox:144464): Gtk-WARNING **: 17:28:46.048: Locale not supported by C library.
+	Using the fallback 'C' locale.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBxFR7K/search.json.mozlz4", (void 0)))
+
+(/usr/lib/firefox/firefox:144577): Gtk-WARNING **: 17:28:48.481: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628501328945	Marionette	INFO	Listening on port 41253
+1628501329026	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:144673): Gtk-WARNING **: 17:28:51.031: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1628501340809	Marionette	INFO	Stopped listening on port 41253
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
